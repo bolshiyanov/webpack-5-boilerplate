@@ -1,0 +1,30 @@
+{
+	"extends": "airbnb",
+	"globals": {
+		"console": true,
+		"window": true
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"modules": true
+		}
+	},
+	"root": true,
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+	"rules": {
+  },
+  "extends": ["eslint: recommented", "google"]
+}
