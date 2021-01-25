@@ -7,7 +7,8 @@ webpack - Module and asset bundler.
 webpack-cli - Command line interface for webpack
 webpack-dev-server - Development server for webpack
 webpack-merge - Simplify development/production configuration
-cross-env - Cross platform configurationcopy-webpack-plugin - Copies individual files or entire directories, which already exist, to the build directory
+cross-env - Cross platform configuration
+copy-webpack-plugin - Copies individual files or entire directories, which already exist, to the build directory
 
 Babel
 @babel/core - Transpile ES6+ to backwards compatible JavaScript
@@ -20,7 +21,7 @@ babel-loader - Transpile files with Babel and webpack
 sass-loader - Load SCSS and compile to CSS
 node-sass - Node Sass
 postcss-loader - Process CSS with PostCSS
-postcss-preset-env - Sensible defaults for PostCSS
+postcss-preset-env - Sensible defaults for PostCSS 
 css-loader - Resolve CSS imports
 style-loader - Inject CSS into the DOM
 
@@ -33,14 +34,8 @@ css-minimizer-webpack-plugin - Optimize and minimize CSS assets
 
 Linters
 eslint - Enforce styleguide across application
-eslint-config-airbnb-base - Base styleguide to enforce rules
-eslint-config-prettier - Implment prettier rules
-eslint-plugin-import - Implment import rules
-eslint-plugin-prettier - Dependency for prettier usage with ESLint
-eslint-import-resolver-webpack - Throw exceptions for import/export in webpack
-eslint-webpack-plugin - ESLint configuration for webpack
-prettier - Dependency for prettier-webpack-plugin plugin
-prettier-webpack-plugin - Prettier configuration for webpack
+eslint-loader - 
+eslint-config-google - 
 
 asset modules
 resource - ico|gif|png|jpg|jpeg loader
@@ -57,4 +52,4 @@ inline - woff|eot|ttf|otf|svg loader
 например, вы добавите пакет stream-browserify в качестве зависимости и
 добавите { stream: 'stream-browserify' } в свойство alias в конфигурации webpack.
 
-!!! 
+!!! Горячая перезагрузка dev сервера работает

@@ -7,7 +7,7 @@ export const example = function () {
 console.log('module.js')
 
 async function start () {
-    return await Promise.resolve('asinc working')
+    return await Promise.resolve('asinc working with babel/polyfill')
 }
 
 start().then(console.log)

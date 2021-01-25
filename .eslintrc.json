@@ -1,8 +1,11 @@
 {
-	"extends": "airbnb",
+  "extends": "airbnb",
+  "eslint": "recommented",
+  "google": true,
 	"globals": {
 		"console": true,
-		"window": true
+    "window": true
+    
 	},
 	"parser": "babel-eslint",
 	"parserOptions": {
@@ -25,6 +28,5 @@
     }
   },
 	"rules": {
-  },
-  "extends": ["eslint: recommented", "google"]
+  }
 }
